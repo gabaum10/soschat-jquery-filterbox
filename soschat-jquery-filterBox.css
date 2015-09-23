@@ -1,0 +1,41 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .filter-overlay {
+        padding-top: 5px !important;
+    }
+    .filterBox-input::-ms-clear {
+        display: none !important;
+    }
+}
+
+.filter-overlay {
+    background-color: transparent;
+    color: grey !important;
+    cursor: text;
+    font-style: italic;
+    left: 0;
+    min-width: 150px;
+    padding: 4px 2px 4px 7px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 205px;
+}
+
+.clear-filterBox {
+    cursor: pointer;
+    position: absolute;
+    top:4px;
+    right: 5px;
+    display: none;
+}
+
+.filterBox-input {
+    padding-right: 20px;
+    height: 23px;
+    min-width: 145px;
+    padding-left: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid #d3d3d3;
+}
